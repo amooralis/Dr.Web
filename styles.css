@@ -1,0 +1,1648 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin,greek-ext,cyrillic");
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 320px) {
+
+    .page, main{
+        gap: 24px;
+    }
+
+
+    .header{
+        width: 320px;
+        height: 422.72px;
+        padding: 40px 12px 0px 12px;
+        gap: 24px;
+    }
+
+    .header_name{
+        display: flex;
+        flex-direction: column;
+        width: 296px;
+        height: 50px;
+        gap: 8px;
+    }
+
+
+
+    .header_title {
+        font-size: 20px;
+        width: 296px;
+        height: 23px;
+        font-weight: 800;
+        line-height: 23.44px;
+        text-align: center;
+    }
+
+    .header_description{
+        font-size: 16px;
+        width: 296px;
+        height: 19px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+    }
+
+    .image_frame{
+        width: 296px;
+        height: 165px;
+    }
+
+    .header_pic_rectangle {
+        width: 296px;
+        height: 140.11px;
+    }
+
+    .header_phone_picture{
+        width: 329.6px;
+        height: 165.36px;
+    }
+
+    .product {
+        flex-direction: column;
+        gap:40px;
+        width: 320px;
+        height: 939px;
+        padding: 40px 12px;
+    }
+
+    .card_title{
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+
+    .card_description{
+        font-size: 16px;
+        line-height: 18.75px;
+        width: 269px;
+        height: 95px;
+    }
+
+    .product_card{
+        width: 296px;
+        height: 498px;
+    }
+
+    .security_space{
+        width: 232px;
+        height: 162px;
+        padding: 1px 36px 1px 36px;
+    }
+
+    .product_text{
+        display: flex;
+        flex-direction: column;
+        width: 232px;
+        height: 76px;
+        gap: 8px;
+    }
+
+    .product_title{
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .product_description{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .price_place{
+        width: 232px;
+        height: 60px;
+    }
+
+    .card_buy_btn{
+        width: 232px;
+        height: 48px;
+    }
+
+    .bottom_frame{
+        width: 320px;
+        height: 480px;
+        padding: 0px 12px 0px 12px;
+        gap: 10px;
+    }
+
+    .bottom_frame_2{
+        width: 296px;
+        height: 480px;
+        padding: 0px 0px 48px 0px;
+        gap: 24px;
+    }
+
+
+    .bottom_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 296px;
+        height: 432px;
+        gap: 12px;
+    }
+
+    .bottom_card{
+        width: 296px;
+        height: 210px;
+        padding: 24px 0px 0px 0px;
+        border-radius: 16px;
+    }
+
+    .card_1_text{
+        width: 248px;
+        height: 108px;
+        gap: 13px;
+    }
+
+    .card_2_text{
+        width: 248px;
+        height: 164px;
+        gap: 12px;
+    }
+
+    .card_1_title{
+        width: 248px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_1_description{
+        width: 248px;
+        height: 76px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .card_2_title{
+        width: 248px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_2_description{
+        width: 248px;
+        height: 133px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .bottom_card img{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        width: 320px;
+        height: 176px;
+        padding: 40px 12px 40px 12px;
+        gap: 24px;
+    }
+
+    .footer_text_container{
+        padding: 16px 0px 0px 0px;
+    }
+
+
+    .footer_text{
+        width: 296px;
+        height: 96px;
+        gap: 8px;
+    }
+
+    .footer_title{
+        width: 220px;
+        height: 18px;
+        gap: 12px;
+    }
+
+
+    .footer_title_text{
+        width: 180px;
+        height: 18px;
+
+    }
+
+
+    .footer_description{
+        width: 296px;
+        height: 54px;
+    }
+
+
+
+
+}
+
+@media (min-width: 480px) {
+
+    .page, main{
+        gap: 32px;
+    }
+
+    .header{
+        width: 480px;
+        height: 569px;
+        padding: 48px 32px 0px 32px;
+        gap: 32px;
+    }
+
+    .header_name{
+        width: 416px;
+        height: 74px;
+        gap: 8px;
+    }
+
+    .header_title {
+        width: 426px;
+        height: 38px;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37.5px;
+        text-align: center;
+    }
+
+    .header_description{
+        width: 416px;
+        height: 28px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.13px;
+        text-align: center;
+    }
+
+    .image_frame{
+        width: 448px;
+        height: 253px;
+    }
+
+    .header_pic_rectangle {
+        width: 448px;
+        height: 210px;
+    }
+
+    .header_phone_picture{
+        width: 504.28px;
+        height: 253px;
+    }
+
+    .product {
+        flex-direction: column;
+        border-radius: 32px;
+        gap:32px;
+        width: 448px;
+        height: 918px;
+        padding: 60px 24px;
+    }
+
+    .card_title{
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+
+    .card_description{
+        font-size: 16px;
+        line-height: 18.75px;
+        width: 400px;
+        height: 57px;
+    }
+
+    .product_card{
+        width: 368px;
+        height: 498px;
+    }
+
+    .security_space{
+        width: 304px;
+        height: 162px;
+        padding: 1px 72px 1px 72px;
+    }
+
+    .product_text{
+        display: flex;
+        flex-direction: column;
+        width: 304px;
+        height: 76px;
+        gap: 8px;
+    }
+
+
+    .product_title{
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+
+    }
+
+    .product_description{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .price_place{
+        width: 304px;
+        height: 60px;
+    }
+
+    .card_buy_btn{
+        width: 304px;
+        height: 48px;
+    }
+
+    .bottom_frame{
+        width: 480px;
+        height: 720px;
+        padding: 0px 16px 0px 16px;
+        gap: 10px;
+    }
+
+    .bottom_frame_2{
+        width: 448px;
+        height: 720px;
+        padding: 0px 0px 48px 0px;
+        gap: 24px;
+    }
+
+    .bottom_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 448px;
+        height: 672px;
+        gap: 16px;
+    }
+
+    .bottom_card{
+        width: 450px;
+        height: 328px;
+        padding: 32px 0px 0px 0px;
+        border-radius: 32px;
+    }
+
+    .card_1_text{
+        width: 380px;
+        height: 117px;
+        gap: 13px;
+    }
+
+    .card_2_text{
+        width: 380px;
+        height: 173px;
+        gap: 12px;
+    }
+
+    .card_1_title{
+        width: 380px;
+        height: 28px;
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.13px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_1_description{
+        width: 380px;
+        height: 76px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .card_2_title{
+        width: 380px;
+        height: 28px;
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.13px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_2_description{
+        width: 380px;
+        height: 133px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .bottom_card img{
+        width: 220px;
+        height: 220px;
+    }
+
+
+    footer {
+        width: 480px;
+        height: 178px;
+        padding: 48px 16px 48px 16px;
+        gap: 24px;
+    }
+
+
+
+    .footer_text_container{
+        width: 448px;
+        height: 82px;
+        padding: 16px 0px 0px 0px;
+        gap: 16px;
+    }
+
+
+    .footer_text{
+        width: 448px;
+        height: 66px;
+        gap: 12px;
+    }
+
+    .footer_title{
+        width: 220px;
+        height: 18px;
+        gap: 12px;
+    }
+
+    .footer_title_text{
+        width: 180px;
+        height: 18px;
+
+    }
+
+
+    .footer_description{
+        width: 448px;
+        height: 36px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .page, main{
+        gap: 32px;
+    }
+
+    .header{
+        width: 768px;
+        height: 720px;
+        padding: 0px 32px 0px 32px;
+        /*gap: 10px;*/
+    }
+
+    .header_text {
+        width: 704px;
+        height: 350px;
+                    /*//////////////////////////////////////////////*/
+        padding: 64px 0px 32px 0px;
+        gap: 32px;
+
+    }
+
+    .header_name{
+        width: 704px;
+        height: 92px;
+        gap: 8px;
+    }
+
+    .header_title {
+        width: 639px;
+        height: 56px;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56.25px;
+        text-align: center;
+    }
+
+    .header_description {
+        width: 639px;
+        height: 28px;
+        gap: 0px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.13px;
+        text-align: center;
+    }
+
+    .image_frame{
+        width: 704px;
+        height: 315px;
+    }
+
+    .header_pic_rectangle {
+        width: 704px;
+        height: 284px;
+    }
+
+    .header_phone_picture{
+        width: 627.85px;
+        height: 315px;
+    }
+
+    .product {
+        flex-direction: column;
+        border-radius: 32px;
+        gap:32px;
+        width: 704px;
+        height: 1024px;
+        padding: 80px 64px;
+    }
+
+    .card_title{
+        font-size: 32px;
+        line-height: 37.5px;
+    }
+
+    .card_description{
+        font-size: 20px;
+        line-height: 23.44px;
+        width: 442px;
+        height: 69px;
+    }
+
+    .product_card{
+        width: 368px;
+        height: 498px;
+
+    }
+
+    .security_space{
+        width: 304px;
+        height: 162px;
+        padding: 1px 72px 1px 72px;
+    }
+
+    .product_text{
+        display: flex;
+        flex-direction: column;
+        width: 304px;
+        height: 76px;
+        gap: 8px;
+    }
+
+    .product_title{
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .product_description{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+    }
+
+    .price_place{
+        width: 304px;
+        height: 60px;
+    }
+
+    .card_buy_btn{
+        width: 304px;
+        height: 48px;
+    }
+
+    .bottom_frame{
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        height: 720px;
+        padding: 0px 32px 0px 32px;
+        gap: 10px;
+    }
+
+    .bottom_frame_2{
+        display: flex;
+        flex-direction: row;
+        width: 704px;
+        height: 720px;
+        padding: 0px 0px 64px 0px;
+        gap: 24px;
+    }
+
+    .bottom_cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 704px;
+        height: 656px;
+        gap: 16px;
+    }
+
+
+    .bottom_card{
+        width: 344px;
+        height: 656px;
+        padding: 32px 0px 0px 0px;
+        border-radius: 32px;
+    }
+
+
+    .card_1_text{
+        width: 280px;
+        height: 117px;
+        gap: 13px;
+    }
+
+    .card_2_text{
+        width: 280px;
+        height: 173px;
+        gap: 12px;
+    }
+
+
+    .card_1_title{
+        width: 216px;
+        height: 28px;
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.13px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_1_description{
+        width: 216px;
+        height: 76px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .card_2_title{
+        width: 251px;
+        height: 28px;
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.13px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_2_description{
+        width: 251px;
+        height: 133px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .bottom_card img{
+        width: 340px;
+        height: 340px;
+    }
+
+    footer{
+        width: 768px;
+        height: 246px;
+        padding: 64px 32px 64px 32px;
+        gap: 48px;
+    }
+
+
+    .footer_text_container{
+        width: 704px;
+        height: 118px;
+        padding: 16px 0px 0px 0px;
+        gap: 16px;
+    }
+
+    .footer_text{
+        width: 250px;
+        height: 102px;
+        gap: 12px;
+    }
+
+    .footer_title{
+        width: 228px;
+        height: 18px;
+        gap: 12px;
+    }
+
+    .footer_title_text{
+        width: 188px;
+        height: 18px;
+
+    }
+
+
+    .footer_description{
+        width: 224px;
+        height: 72px;
+    }
+
+
+
+}
+
+@media (min-width: 1300px) {
+    .page, main{
+        gap: 64px;
+    }
+
+    .header{
+        width: 1920px;
+        height: 1080px;
+        padding: 104px 0px 0px 0px;
+        gap: 32px;
+    }
+
+    .header_text {
+        width: 1920px;
+        height: 326px;
+        padding: 0px;
+        gap: 32px;
+    }
+
+    .header_name{
+        width: 1920px;
+        height: 164px;
+        gap: 16px;
+    }
+
+
+    .header_title {
+        width: 1920px;
+        height: 101px;
+        font-size: 86px;
+        font-weight: 800;
+        line-height: 100.78px;
+        text-align: center;
+    }
+
+    .header_description{
+        width: 1920px;
+        height: 47px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 46.88px;
+        text-align: center;
+    }
+
+    .image_frame{
+        width: 1168px;
+        height: 618px;
+    }
+
+
+    .header_pic_rectangle {
+        width: 1170px;
+        height: 477px;
+    }
+
+    .header_phone_picture{
+        width: 1170px;
+        height: 587px;
+    }
+
+    .product {
+        flex-direction: row;
+        border-radius: 32px;
+        gap:64px;
+        width: 1141px;
+        height: 658px;
+        padding: 80px 100px;
+    }
+
+    .card_title{
+        font-size: 32px;
+        line-height: 37.5px;
+    }
+
+    .card_description{
+        font-size: 20px;
+        line-height: 23.44px;
+        width: 442px;
+        height: 69px;
+    }
+
+    .product_card{
+        width: 368px;
+        height: 498px;
+    }
+
+    .security_space{
+        width: 304px;
+        height: 162px;
+        padding: 1px 72px 1px 72px;
+    }
+
+    .product_text{
+        display: flex;
+        flex-direction: column;
+        width: 304px;
+        height: 76px;
+        gap: 8px;
+    }
+
+    .product_title{
+        font-family: "Roboto", serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .product_description{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .price_place{
+        width: 304px;
+        height: 60px;
+    }
+
+    /*.old_price{*/
+    /*    font-size: 18px;*/
+    /*    font-weight: 600;*/
+    /*    line-height: 24px;*/
+    /*}*/
+
+    .card_buy_btn{
+        width: 304px;
+        height: 48px;
+    }
+
+    .bottom_frame{
+        display: flex;
+        flex-direction: row;
+        width: 1920px;
+        height: 720px;
+        padding: 0px 0px 104px 0px;
+        gap: 32px;
+    }
+
+    .bottom_frame_2{
+        display: flex;
+        flex-direction: row;
+        width: 1920px;
+        height: 720px;
+        padding: 0px 0px 104px 0px;
+        gap: 32px;
+    }
+
+    .bottom_cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1920px;
+        height: 616px;
+        gap: 32px;
+    }
+
+    .bottom_card{
+        width: 569px;
+        height: 616px;
+        padding: 64px 0px 0px 0px;
+        border-radius: 32px;
+    }
+
+    .card_1_text{
+        width: 441px;
+        height: 143px;
+        gap: 13px;
+    }
+
+    .card_2_text{
+        width: 441px;
+        height: 211px;
+        gap: 12px;
+    }
+
+
+
+
+    .card_1_title{
+        width: 441px;
+        height: 38px;
+        font-family: "Roboto", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_1_description{
+        width: 441px;
+        height: 92px;
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        text-align: left;
+    }
+
+    .card_2_title{
+        width: 441px;
+        height: 38px;
+        font-family: "Roboto", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_2_description{
+        width: 441px;
+        height: 161px;
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        text-align: left;
+    }
+
+    .bottom_card img{
+        width: 340px;
+        height: 340px;
+    }
+
+    footer{
+        width: 1920px;
+        height: 228px;
+        padding: 64px 376px 64px 376px;
+        gap: 64px;
+    }
+
+
+    .footer_text_container{
+        width: 1168px;
+        height: 100px;
+        padding: 16px 0px 0px 0px;
+        gap: 32px;
+    }
+
+    .footer_text{
+        width: 368px;
+        height: 84px;
+        gap: 12px;
+    }
+
+
+    .footer_title{
+        width: 220px;
+        height: 18px;
+        gap: 12px;
+    }
+
+    .footer_title_text{
+        width: 180px;
+        height: 18px;
+    }
+
+
+    .footer_description{
+        width: 368px;
+        height: 54px;
+    }
+
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow:hidden;
+    overflow-x:hidden;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.buy_btn{
+    width: 223px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #69B42E;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+}
+
+
+
+.header_name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header_title{
+    font-family: "Roboto", serif;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0;
+}
+
+.header_description{
+    font-family: "Roboto", serif;
+    text-align: center;
+    color: #666666;
+}
+
+.header_logo{
+    height: 50px;
+    width: 268px;
+}
+
+.image_frame{
+    position: relative;
+}
+
+.header_pic_rectangle {
+    background-color: #F2F2F2;
+    border-radius: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_phone_picture {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.frame {
+    width: 768px;
+    height: 1024px;
+    padding: 0px 32px;
+    gap: 10px;
+}
+
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    background-color: #1A1A1A;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.terms_of_action {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #69B42E;
+}
+
+.product_card {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.sale_date{
+    color: #69B42E;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card_title {
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.card-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card-tags p{
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    /*font-size: 4vw;*/
+    color: #CCCCCC;
+    padding: 8px 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 80px;
+}
+
+.card_description{
+    font-family: "Roboto", serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.product_card{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    background-color: #FFFFFF;
+    padding: 40px 32px;
+    border-radius: 10px;
+    gap: 24px;
+}
+
+.security {
+    width: 160px;
+    height: 160px;
+}
+
+.product_description {
+    color: #666666;
+}
+
+.price_place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prices{
+    width: 86px;
+    height: 60px;
+}
+
+.old_price {
+    font-family: "Roboto", serif;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 48px;
+    height: 24px;
+}
+
+.old_price::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px; /* Толщина зачёркивания */
+    background: #B3B3B3; /* Цвет зачёркивания */
+    top: 57%; /* Позиция линии относительно текста, измените по необходимости */
+}
+
+.new_price{
+    font-family: "Roboto", serif;
+    white-space: nowrap;
+    width: 86px;
+    height: 36px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.nds{
+    font-family: "Roboto", serif;
+    white-space: nowrap;
+    width: 56px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.card_buy_btn {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #69B42E;
+    border: none;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.buy_btn:hover, .card_buy_btn:hover{
+    background-color: #80BF4D;
+}
+
+
+
+.bottom_card{
+    gap: 10px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.bottom_card img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card_1_text, .card_2_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card_1_description, .card_2_description{
+    color: #666666;
+}
+
+footer {
+    display: flex;
+    background-color: #212121;
+    width: 100%;
+}
+
+
+.footer_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_title{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+
+}
+
+
+.footer_title img{
+    width: 28px;
+    height: 18px;
+}
+
+.footer_title_text{
+    font-family: "Roboto", serif;
+    color: #C6C7C8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.footer_description{
+    font-family: "Roboto", serif;
+    color: #C6C7C8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+@media (max-width: 320px) {
+    .page{
+        gap: 24px;
+    }
+
+    .header{
+        width: 320px;
+        height: 422.72px;
+        padding: 40px 12px 0px 12px;
+        gap: 24px;
+    }
+
+    .header_name{
+        display: flex;
+        flex-direction: column;
+        width: 296px;
+        height: 50px;
+        gap: 8px;
+    }
+
+
+
+    .header_title {
+        font-size: 20px;
+        width: 296px;
+        height: 23px;
+        font-weight: 800;
+        line-height: 23.44px;
+        text-align: center;
+    }
+
+    .header_description{
+        font-size: 16px;
+        width: 296px;
+        height: 19px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+    }
+
+    .image_frame{
+        width: 296px;
+        height: 165px;
+    }
+
+    .header_pic_rectangle {
+        width: 296px;
+        height: 140.11px;
+    }
+
+    .header_phone_picture{
+        width: 329.6px;
+        height: 165.36px;
+    }
+
+    .product {
+        flex-direction: column;
+        gap:40px;
+        width: 320px;
+        height: 939px;
+        padding: 40px 12px;
+    }
+
+    .card_title{
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+
+    .card_description{
+        font-size: 16px;
+        line-height: 18.75px;
+        width: 269px;
+        height: 95px;
+    }
+
+    .product_card{
+        width: 296px;
+        height: 498px;
+    }
+
+    .security_space{
+        width: 232px;
+        height: 162px;
+        padding: 1px 36px 1px 36px;
+    }
+
+    .product_text{
+        display: flex;
+        flex-direction: column;
+        width: 232px;
+        height: 76px;
+        gap: 8px;
+    }
+
+    .product_title{
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .product_description{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .price_place{
+        width: 232px;
+        height: 60px;
+    }
+
+    .card_buy_btn{
+        width: 232px;
+        height: 48px;
+    }
+
+    .bottom_frame{
+        width: 320px;
+        height: 480px;
+        padding: 0px 12px 0px 12px;
+        gap: 10px;
+    }
+
+    .bottom_frame_2{
+        width: 296px;
+        height: 480px;
+        padding: 0px 0px 48px 0px;
+        gap: 24px;
+    }
+
+
+    .bottom_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 296px;
+        height: 432px;
+        gap: 12px;
+    }
+
+    .bottom_card{
+        width: 296px;
+        height: 210px;
+        padding: 24px 0px 0px 0px;
+        border-radius: 16px;
+    }
+
+    .card_1_text{
+        width: 248px;
+        height: 108px;
+        gap: 13px;
+    }
+
+    .card_2_text{
+        width: 248px;
+        /*///////////////////////////////*/
+        height: 164px;
+        gap: 12px;
+    }
+
+    .card_1_title{
+        width: 248px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_1_description{
+        width: 248px;
+        height: 76px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .card_2_title{
+        width: 248px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.75px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .card_2_description{
+        width: 248px;
+        height: 133px;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: left;
+    }
+
+    .bottom_card img{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        width: 320px;
+        height: 176px;
+        padding: 40px 12px 40px 12px;
+        gap: 24px;
+    }
+
+    .footer_text_container{
+        padding: 16px 0px 0px 0px;
+    }
+
+
+    .footer_text{
+        width: 296px;
+        height: 96px;
+        gap: 8px;
+    }
+
+    .footer_title{
+        width: 220px;
+        height: 18px;
+        gap: 12px;
+    }
+
+
+    .footer_title_text{
+        width: 180px;
+        height: 18px;
+
+    }
+
+
+    .footer_description{
+        width: 296px;
+        height: 54px;
+    }
+
+
+
+
+}
+
+
+
