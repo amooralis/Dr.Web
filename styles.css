@@ -1,9 +1,8 @@
-
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin,greek-ext,cyrillic");
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -13,26 +12,25 @@ html {
 
 @media (min-width: 320px) {
 
-    .page, main{
+    .page, main {
         gap: 24px;
     }
 
 
-    .header{
+    .header {
         width: 320px;
         height: 422.72px;
         padding: 40px 12px 0px 12px;
         gap: 24px;
     }
 
-    .header_name{
+    .header_name {
         display: flex;
         flex-direction: column;
         width: 296px;
         height: 50px;
         gap: 8px;
     }
-
 
 
     .header_title {
@@ -44,7 +42,7 @@ html {
         text-align: center;
     }
 
-    .header_description{
+    .header_description {
         font-size: 16px;
         width: 296px;
         height: 19px;
@@ -53,7 +51,7 @@ html {
         text-align: center;
     }
 
-    .image_frame{
+    .image_frame {
         width: 296px;
         height: 165px;
     }
@@ -63,43 +61,43 @@ html {
         height: 140.11px;
     }
 
-    .header_phone_picture{
+    .header_phone_picture {
         width: 329.6px;
         height: 165.36px;
     }
 
     .product {
         flex-direction: column;
-        gap:40px;
+        gap: 40px;
         width: 320px;
         height: 939px;
         padding: 40px 12px;
     }
 
-    .card_title{
+    .card_title {
         font-size: 24px;
         line-height: 28.13px;
     }
 
-    .card_description{
+    .card_description {
         font-size: 16px;
         line-height: 18.75px;
         width: 269px;
         height: 95px;
     }
 
-    .product_card{
+    .product_card {
         width: 296px;
         height: 498px;
     }
 
-    .security_space{
+    .security_space {
         width: 232px;
         height: 162px;
         padding: 1px 36px 1px 36px;
     }
 
-    .product_text{
+    .product_text {
         display: flex;
         flex-direction: column;
         width: 232px;
@@ -107,7 +105,7 @@ html {
         gap: 8px;
     }
 
-    .product_title{
+    .product_title {
         font-family: "Roboto", serif;
         font-size: 20px;
         font-weight: 500;
@@ -115,7 +113,7 @@ html {
         text-align: left;
     }
 
-    .product_description{
+    .product_description {
         font-family: "Roboto", serif;
         font-size: 16px;
         font-weight: 400;
@@ -123,24 +121,24 @@ html {
         text-align: left;
     }
 
-    .price_place{
+    .price_place {
         width: 232px;
         height: 60px;
     }
 
-    .card_buy_btn{
+    .card_buy_btn {
         width: 232px;
         height: 48px;
     }
 
-    .bottom_frame{
+    .bottom_frame {
         width: 320px;
         height: 480px;
         padding: 0px 12px 0px 12px;
         gap: 10px;
     }
 
-    .bottom_frame_2{
+    .bottom_frame_2 {
         width: 296px;
         height: 480px;
         padding: 0px 0px 48px 0px;
@@ -148,7 +146,7 @@ html {
     }
 
 
-    .bottom_cards{
+    .bottom_cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -157,26 +155,26 @@ html {
         gap: 12px;
     }
 
-    .bottom_card{
+    .bottom_card {
         width: 296px;
         height: 210px;
         padding: 24px 0px 0px 0px;
         border-radius: 16px;
     }
 
-    .card_1_text{
+    .card_1_text {
         width: 248px;
         height: 108px;
         gap: 13px;
     }
 
-    .card_2_text{
+    .card_2_text {
         width: 248px;
         height: 164px;
         gap: 12px;
     }
 
-    .card_1_title{
+    .card_1_title {
         width: 248px;
         height: 19px;
         font-family: "Roboto", serif;
@@ -187,7 +185,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_1_description{
+    .card_1_description {
         width: 248px;
         height: 76px;
         font-family: "Roboto", serif;
@@ -197,7 +195,7 @@ html {
         text-align: left;
     }
 
-    .card_2_title{
+    .card_2_title {
         width: 248px;
         height: 19px;
         font-family: "Roboto", serif;
@@ -208,7 +206,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_2_description{
+    .card_2_description {
         width: 248px;
         height: 133px;
         font-family: "Roboto", serif;
@@ -218,67 +216,63 @@ html {
         text-align: left;
     }
 
-    .bottom_card img{
+    .bottom_card img {
         width: 120px;
         height: 120px;
     }
 
     footer {
-        width: 320px;
         height: 176px;
-        padding: 40px 12px 40px 12px;
         gap: 24px;
     }
 
-    .footer_text_container{
+    .footer_text_container {
         padding: 16px 0px 0px 0px;
     }
 
 
-    .footer_text{
+    .footer_text {
         width: 296px;
         height: 96px;
         gap: 8px;
     }
 
-    .footer_title{
+    .footer_title {
         width: 220px;
         height: 18px;
         gap: 12px;
     }
 
 
-    .footer_title_text{
+    .footer_title_text {
         width: 180px;
         height: 18px;
 
     }
 
 
-    .footer_description{
+    .footer_description {
         width: 296px;
         height: 54px;
     }
-
-
 
 
 }
 
 @media (min-width: 480px) {
 
-    .page, main{
+    .page, main {
         gap: 32px;
     }
 
-    .header{
+    .header {
         width: 480px;
         height: 569px;
         padding: 48px 32px 0px 32px;
         gap: 32px;
     }
 
-    .header_name{
+    .header_name {
         width: 416px;
         height: 74px;
         gap: 8px;
@@ -293,7 +287,7 @@ html {
         text-align: center;
     }
 
-    .header_description{
+    .header_description {
         width: 416px;
         height: 28px;
         font-size: 24px;
@@ -302,7 +296,7 @@ html {
         text-align: center;
     }
 
-    .image_frame{
+    .image_frame {
         width: 448px;
         height: 253px;
     }
@@ -312,7 +306,7 @@ html {
         height: 210px;
     }
 
-    .header_phone_picture{
+    .header_phone_picture {
         width: 504.28px;
         height: 253px;
     }
@@ -320,36 +314,36 @@ html {
     .product {
         flex-direction: column;
         border-radius: 32px;
-        gap:32px;
+        gap: 32px;
         width: 448px;
         height: 918px;
         padding: 60px 24px;
     }
 
-    .card_title{
+    .card_title {
         font-size: 24px;
         line-height: 28.13px;
     }
 
-    .card_description{
+    .card_description {
         font-size: 16px;
         line-height: 18.75px;
         width: 400px;
         height: 57px;
     }
 
-    .product_card{
+    .product_card {
         width: 368px;
         height: 498px;
     }
 
-    .security_space{
+    .security_space {
         width: 304px;
         height: 162px;
         padding: 1px 72px 1px 72px;
     }
 
-    .product_text{
+    .product_text {
         display: flex;
         flex-direction: column;
         width: 304px;
@@ -358,7 +352,7 @@ html {
     }
 
 
-    .product_title{
+    .product_title {
         font-family: "Roboto", serif;
         font-size: 24px;
         font-weight: 500;
@@ -367,7 +361,7 @@ html {
 
     }
 
-    .product_description{
+    .product_description {
         font-family: "Roboto", serif;
         font-size: 16px;
         font-weight: 400;
@@ -375,31 +369,31 @@ html {
         text-align: left;
     }
 
-    .price_place{
+    .price_place {
         width: 304px;
         height: 60px;
     }
 
-    .card_buy_btn{
+    .card_buy_btn {
         width: 304px;
         height: 48px;
     }
 
-    .bottom_frame{
+    .bottom_frame {
         width: 480px;
         height: 720px;
         padding: 0px 16px 0px 16px;
         gap: 10px;
     }
 
-    .bottom_frame_2{
+    .bottom_frame_2 {
         width: 448px;
         height: 720px;
         padding: 0px 0px 48px 0px;
         gap: 24px;
     }
 
-    .bottom_cards{
+    .bottom_cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -408,26 +402,26 @@ html {
         gap: 16px;
     }
 
-    .bottom_card{
+    .bottom_card {
         width: 450px;
         height: 328px;
         padding: 32px 0px 0px 0px;
         border-radius: 32px;
     }
 
-    .card_1_text{
+    .card_1_text {
         width: 380px;
         height: 117px;
         gap: 13px;
     }
 
-    .card_2_text{
+    .card_2_text {
         width: 380px;
         height: 173px;
         gap: 12px;
     }
 
-    .card_1_title{
+    .card_1_title {
         width: 380px;
         height: 28px;
         font-family: "Roboto", serif;
@@ -438,7 +432,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_1_description{
+    .card_1_description {
         width: 380px;
         height: 76px;
         font-family: "Roboto", serif;
@@ -448,7 +442,7 @@ html {
         text-align: left;
     }
 
-    .card_2_title{
+    .card_2_title {
         width: 380px;
         height: 28px;
         font-family: "Roboto", serif;
@@ -459,7 +453,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_2_description{
+    .card_2_description {
         width: 380px;
         height: 133px;
         font-family: "Roboto", serif;
@@ -469,22 +463,19 @@ html {
         text-align: left;
     }
 
-    .bottom_card img{
+    .bottom_card img {
         width: 220px;
         height: 220px;
     }
 
 
     footer {
-        width: 480px;
         height: 178px;
-        padding: 48px 16px 48px 16px;
         gap: 24px;
     }
 
 
-
-    .footer_text_container{
+    .footer_text_container {
         width: 448px;
         height: 82px;
         padding: 16px 0px 0px 0px;
@@ -492,57 +483,54 @@ html {
     }
 
 
-    .footer_text{
+    .footer_text {
         width: 448px;
         height: 66px;
         gap: 12px;
     }
 
-    .footer_title{
+    .footer_title {
         width: 220px;
         height: 18px;
         gap: 12px;
     }
 
-    .footer_title_text{
+    .footer_title_text {
         width: 180px;
         height: 18px;
 
     }
 
 
-    .footer_description{
+    .footer_description {
         width: 448px;
         height: 36px;
     }
-
 
 
 }
 
 @media (min-width: 768px) {
 
-    .page, main{
+    .page, main {
         gap: 32px;
     }
 
-    .header{
+    .header {
         width: 768px;
         height: 720px;
         padding: 0px 32px 0px 32px;
-        /*gap: 10px;*/
     }
 
     .header_text {
         width: 704px;
         height: 350px;
-                    /*//////////////////////////////////////////////*/
         padding: 64px 0px 32px 0px;
         gap: 32px;
 
     }
 
-    .header_name{
+    .header_name {
         width: 704px;
         height: 92px;
         gap: 8px;
@@ -567,7 +555,7 @@ html {
         text-align: center;
     }
 
-    .image_frame{
+    .image_frame {
         width: 704px;
         height: 315px;
     }
@@ -577,7 +565,7 @@ html {
         height: 284px;
     }
 
-    .header_phone_picture{
+    .header_phone_picture {
         width: 627.85px;
         height: 315px;
     }
@@ -585,37 +573,37 @@ html {
     .product {
         flex-direction: column;
         border-radius: 32px;
-        gap:32px;
+        gap: 32px;
         width: 704px;
         height: 1024px;
         padding: 80px 64px;
     }
 
-    .card_title{
+    .card_title {
         font-size: 32px;
         line-height: 37.5px;
     }
 
-    .card_description{
+    .card_description {
         font-size: 20px;
         line-height: 23.44px;
         width: 442px;
         height: 69px;
     }
 
-    .product_card{
+    .product_card {
         width: 368px;
         height: 498px;
 
     }
 
-    .security_space{
+    .security_space {
         width: 304px;
         height: 162px;
         padding: 1px 72px 1px 72px;
     }
 
-    .product_text{
+    .product_text {
         display: flex;
         flex-direction: column;
         width: 304px;
@@ -623,31 +611,31 @@ html {
         gap: 8px;
     }
 
-    .product_title{
+    .product_title {
         font-family: "Roboto", serif;
         font-size: 24px;
         font-weight: 500;
         line-height: 30px;
     }
 
-    .product_description{
+    .product_description {
         font-family: "Roboto", serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 18.75px;
     }
 
-    .price_place{
+    .price_place {
         width: 304px;
         height: 60px;
     }
 
-    .card_buy_btn{
+    .card_buy_btn {
         width: 304px;
         height: 48px;
     }
 
-    .bottom_frame{
+    .bottom_frame {
         display: flex;
         flex-direction: row;
         width: 768px;
@@ -656,7 +644,7 @@ html {
         gap: 10px;
     }
 
-    .bottom_frame_2{
+    .bottom_frame_2 {
         display: flex;
         flex-direction: row;
         width: 704px;
@@ -665,7 +653,7 @@ html {
         gap: 24px;
     }
 
-    .bottom_cards{
+    .bottom_cards {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -675,7 +663,7 @@ html {
     }
 
 
-    .bottom_card{
+    .bottom_card {
         width: 344px;
         height: 656px;
         padding: 32px 0px 0px 0px;
@@ -683,20 +671,20 @@ html {
     }
 
 
-    .card_1_text{
+    .card_1_text {
         width: 280px;
         height: 117px;
         gap: 13px;
     }
 
-    .card_2_text{
+    .card_2_text {
         width: 280px;
         height: 173px;
         gap: 12px;
     }
 
 
-    .card_1_title{
+    .card_1_title {
         width: 216px;
         height: 28px;
         font-family: "Roboto", serif;
@@ -707,7 +695,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_1_description{
+    .card_1_description {
         width: 216px;
         height: 76px;
         font-family: "Roboto", serif;
@@ -717,7 +705,7 @@ html {
         text-align: left;
     }
 
-    .card_2_title{
+    .card_2_title {
         width: 251px;
         height: 28px;
         font-family: "Roboto", serif;
@@ -728,7 +716,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_2_description{
+    .card_2_description {
         width: 251px;
         height: 133px;
         font-family: "Roboto", serif;
@@ -738,60 +726,57 @@ html {
         text-align: left;
     }
 
-    .bottom_card img{
+    .bottom_card img {
         width: 340px;
         height: 340px;
     }
 
-    footer{
-        width: 768px;
+    footer {
         height: 246px;
-        padding: 64px 32px 64px 32px;
         gap: 48px;
     }
 
 
-    .footer_text_container{
+    .footer_text_container {
         width: 704px;
         height: 118px;
         padding: 16px 0px 0px 0px;
         gap: 16px;
     }
 
-    .footer_text{
+    .footer_text {
         width: 250px;
         height: 102px;
         gap: 12px;
     }
 
-    .footer_title{
+    .footer_title {
         width: 228px;
         height: 18px;
         gap: 12px;
     }
 
-    .footer_title_text{
+    .footer_title_text {
         width: 188px;
         height: 18px;
 
     }
 
 
-    .footer_description{
+    .footer_description {
         width: 224px;
         height: 72px;
     }
 
 
-
 }
 
 @media (min-width: 1920px) {
-    .page, main{
+    .page, main {
         gap: 64px;
     }
 
-    .header{
+    .header {
         width: 1920px;
         height: 1080px;
         padding: 104px 0px 0px 0px;
@@ -805,7 +790,7 @@ html {
         gap: 32px;
     }
 
-    .header_name{
+    .header_name {
         width: 1920px;
         height: 164px;
         gap: 16px;
@@ -821,7 +806,7 @@ html {
         text-align: center;
     }
 
-    .header_description{
+    .header_description {
         width: 1920px;
         height: 47px;
         font-size: 40px;
@@ -830,7 +815,7 @@ html {
         text-align: center;
     }
 
-    .image_frame{
+    .image_frame {
         width: 1168px;
         height: 618px;
     }
@@ -841,7 +826,7 @@ html {
         height: 477px;
     }
 
-    .header_phone_picture{
+    .header_phone_picture {
         width: 1170px;
         height: 587px;
     }
@@ -849,36 +834,36 @@ html {
     .product {
         flex-direction: row;
         border-radius: 32px;
-        gap:64px;
+        gap: 64px;
         width: 1141px;
         height: 658px;
         padding: 80px 100px;
     }
 
-    .card_title{
+    .card_title {
         font-size: 32px;
         line-height: 37.5px;
     }
 
-    .card_description{
+    .card_description {
         font-size: 20px;
         line-height: 23.44px;
         width: 442px;
         height: 69px;
     }
 
-    .product_card{
+    .product_card {
         width: 368px;
         height: 498px;
     }
 
-    .security_space{
+    .security_space {
         width: 304px;
         height: 162px;
         padding: 1px 72px 1px 72px;
     }
 
-    .product_text{
+    .product_text {
         display: flex;
         flex-direction: column;
         width: 304px;
@@ -886,14 +871,14 @@ html {
         gap: 8px;
     }
 
-    .product_title{
+    .product_title {
         font-family: "Roboto", serif;
         font-size: 24px;
         font-weight: 500;
         line-height: 30px;
     }
 
-    .product_description{
+    .product_description {
         font-family: "Roboto", serif;
         font-size: 16px;
         font-weight: 400;
@@ -901,23 +886,17 @@ html {
         text-align: left;
     }
 
-    .price_place{
+    .price_place {
         width: 304px;
         height: 60px;
     }
 
-    /*.old_price{*/
-    /*    font-size: 18px;*/
-    /*    font-weight: 600;*/
-    /*    line-height: 24px;*/
-    /*}*/
-
-    .card_buy_btn{
+    .card_buy_btn {
         width: 304px;
         height: 48px;
     }
 
-    .bottom_frame{
+    .bottom_frame {
         display: flex;
         flex-direction: row;
         width: 1920px;
@@ -926,7 +905,7 @@ html {
         gap: 32px;
     }
 
-    .bottom_frame_2{
+    .bottom_frame_2 {
         display: flex;
         flex-direction: row;
         width: 1920px;
@@ -935,7 +914,7 @@ html {
         gap: 32px;
     }
 
-    .bottom_cards{
+    .bottom_cards {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -944,29 +923,27 @@ html {
         gap: 32px;
     }
 
-    .bottom_card{
+    .bottom_card {
         width: 569px;
         height: 616px;
         padding: 64px 0px 0px 0px;
         border-radius: 32px;
     }
 
-    .card_1_text{
+    .card_1_text {
         width: 441px;
         height: 143px;
         gap: 13px;
     }
 
-    .card_2_text{
+    .card_2_text {
         width: 441px;
         height: 211px;
         gap: 12px;
     }
 
 
-
-
-    .card_1_title{
+    .card_1_title {
         width: 441px;
         height: 38px;
         font-family: "Roboto", serif;
@@ -977,7 +954,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_1_description{
+    .card_1_description {
         width: 441px;
         height: 92px;
         font-family: "Roboto", serif;
@@ -987,7 +964,7 @@ html {
         text-align: left;
     }
 
-    .card_2_title{
+    .card_2_title {
         width: 441px;
         height: 38px;
         font-family: "Roboto", serif;
@@ -998,7 +975,7 @@ html {
         white-space: nowrap;
     }
 
-    .card_2_description{
+    .card_2_description {
         width: 441px;
         height: 161px;
         font-family: "Roboto", serif;
@@ -1008,46 +985,45 @@ html {
         text-align: left;
     }
 
-    .bottom_card img{
+    .bottom_card img {
         width: 340px;
         height: 340px;
     }
 
-    footer{
-        width: 1920px;
+    footer {
         height: 228px;
-        padding: 64px 376px 64px 376px;
         gap: 64px;
+
     }
 
 
-    .footer_text_container{
+    .footer_text_container {
         width: 1168px;
         height: 100px;
         padding: 16px 0px 0px 0px;
         gap: 32px;
     }
 
-    .footer_text{
+    .footer_text {
         width: 368px;
         height: 84px;
         gap: 12px;
     }
 
 
-    .footer_title{
+    .footer_title {
         width: 220px;
         height: 18px;
         gap: 12px;
     }
 
-    .footer_title_text{
+    .footer_title_text {
         width: 180px;
         height: 18px;
     }
 
 
-    .footer_description{
+    .footer_description {
         width: 368px;
         height: 54px;
     }
@@ -1055,16 +1031,16 @@ html {
 }
 
 
-.page{
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    overflow:hidden;
-    overflow-x:hidden;
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1078,7 +1054,7 @@ html {
     gap: 32px;
 }
 
-.buy_btn{
+.buy_btn {
     width: 223px;
     height: 48px;
     padding: 15px;
@@ -1094,33 +1070,32 @@ html {
 }
 
 
-
-.header_name{
+.header_name {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
-.header_title{
+.header_title {
     font-family: "Roboto", serif;
     white-space: nowrap;
     text-align: center;
     padding: 0;
 }
 
-.header_description{
+.header_description {
     font-family: "Roboto", serif;
     text-align: center;
     color: #666666;
 }
 
-.header_logo{
+.header_logo {
     height: 50px;
     width: 268px;
 }
 
-.image_frame{
+.image_frame {
     position: relative;
 }
 
@@ -1140,10 +1115,11 @@ html {
     transform: translateX(-50%);
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
 }
+
 .frame {
     width: 768px;
     height: 1024px;
@@ -1170,7 +1146,7 @@ main{
     gap: 32px;
 }
 
-.card_text{
+.card_text {
     display: flex;
     flex-direction: column;
     gap: 12px
@@ -1190,7 +1166,7 @@ main{
     background-color: #FFFFFF;
 }
 
-.sale_date{
+.sale_date {
     color: #69B42E;
     font-family: "Roboto", serif;
     font-weight: 500;
@@ -1204,35 +1180,33 @@ main{
     color: #FFFFFF;
 }
 
-.card-tags{
+.card-tags {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 12px;
 }
 
-.card-tags p{
+.card-tags p {
     font-family: "Roboto", serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
-    /*font-size: 4vw;*/
     color: #CCCCCC;
     padding: 8px 12px;
     border: 1px solid #CCCCCC;
     border-radius: 80px;
 }
 
-.card_description{
+.card_description {
     font-family: "Roboto", serif;
     color: #FFFFFF;
     font-weight: 400;
 }
 
-.product_card{
+.product_card {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     background-color: #FFFFFF;
     padding: 40px 32px;
     border-radius: 10px;
@@ -1248,13 +1222,13 @@ main{
     color: #666666;
 }
 
-.price_place{
+.price_place {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.prices{
+.prices {
     width: 86px;
     height: 60px;
 }
@@ -1277,12 +1251,12 @@ main{
     position: absolute;
     left: 0;
     right: 0;
-    height: 1px; /* Толщина зачёркивания */
-    background: #B3B3B3; /* Цвет зачёркивания */
-    top: 57%; /* Позиция линии относительно текста, измените по необходимости */
+    height: 1px;
+    background: #B3B3B3;
+    top: 57%;
 }
 
-.new_price{
+.new_price {
     font-family: "Roboto", serif;
     white-space: nowrap;
     width: 86px;
@@ -1293,7 +1267,7 @@ main{
     text-align: left;
 }
 
-.nds{
+.nds {
     font-family: "Roboto", serif;
     white-space: nowrap;
     width: 56px;
@@ -1317,25 +1291,24 @@ main{
     text-align: center;
 }
 
-.buy_btn:hover, .card_buy_btn:hover{
+.buy_btn:hover, .card_buy_btn:hover {
     background-color: #80BF4D;
 }
 
 
-
-.bottom_card{
+.bottom_card {
     gap: 10px;
     background-color: #F2F2F2;
     position: relative;
 }
 
-.bottom_card img{
+.bottom_card img {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.card_1_text, .card_2_text{
+.card_1_text, .card_2_text {
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -1343,23 +1316,26 @@ main{
 
 }
 
-.card_1_description, .card_2_description{
+.card_1_description, .card_2_description {
     color: #666666;
 }
 
 footer {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #212121;
     width: 100%;
 }
 
 
-.footer_text{
+.footer_text {
     display: flex;
     flex-direction: column;
 }
 
-.footer_title{
+.footer_title {
     display: flex;
     flex-direction: row;
     white-space: nowrap;
@@ -1367,12 +1343,12 @@ footer {
 }
 
 
-.footer_title img{
+.footer_title img {
     width: 28px;
     height: 18px;
 }
 
-.footer_title_text{
+.footer_title_text {
     font-family: "Roboto", serif;
     color: #C6C7C8;
     font-size: 14px;
@@ -1381,7 +1357,7 @@ footer {
     white-space: nowrap;
 }
 
-.footer_description{
+.footer_description {
     font-family: "Roboto", serif;
     color: #C6C7C8;
     font-size: 14px;
@@ -1390,27 +1366,25 @@ footer {
 }
 
 
-
 @media (max-width: 320px) {
-    .page{
+    .page {
         gap: 24px;
     }
 
-    .header{
+    .header {
         width: 320px;
         height: 422.72px;
         padding: 40px 12px 0px 12px;
         gap: 24px;
     }
 
-    .header_name{
+    .header_name {
         display: flex;
         flex-direction: column;
         width: 296px;
         height: 50px;
         gap: 8px;
     }
-
 
 
     .header_title {
@@ -1422,7 +1396,7 @@ footer {
         text-align: center;
     }
 
-    .header_description{
+    .header_description {
         font-size: 16px;
         width: 296px;
         height: 19px;
@@ -1431,7 +1405,7 @@ footer {
         text-align: center;
     }
 
-    .image_frame{
+    .image_frame {
         width: 296px;
         height: 165px;
     }
@@ -1441,43 +1415,43 @@ footer {
         height: 140.11px;
     }
 
-    .header_phone_picture{
+    .header_phone_picture {
         width: 329.6px;
         height: 165.36px;
     }
 
     .product {
         flex-direction: column;
-        gap:40px;
+        gap: 40px;
         width: 320px;
         height: 939px;
         padding: 40px 12px;
     }
 
-    .card_title{
+    .card_title {
         font-size: 24px;
         line-height: 28.13px;
     }
 
-    .card_description{
+    .card_description {
         font-size: 16px;
         line-height: 18.75px;
         width: 269px;
         height: 95px;
     }
 
-    .product_card{
+    .product_card {
         width: 296px;
         height: 498px;
     }
 
-    .security_space{
+    .security_space {
         width: 232px;
         height: 162px;
         padding: 1px 36px 1px 36px;
     }
 
-    .product_text{
+    .product_text {
         display: flex;
         flex-direction: column;
         width: 232px;
@@ -1485,7 +1459,7 @@ footer {
         gap: 8px;
     }
 
-    .product_title{
+    .product_title {
         font-family: "Roboto", serif;
         font-size: 20px;
         font-weight: 500;
@@ -1493,7 +1467,7 @@ footer {
         text-align: left;
     }
 
-    .product_description{
+    .product_description {
         font-family: "Roboto", serif;
         font-size: 16px;
         font-weight: 400;
@@ -1501,24 +1475,24 @@ footer {
         text-align: left;
     }
 
-    .price_place{
+    .price_place {
         width: 232px;
         height: 60px;
     }
 
-    .card_buy_btn{
+    .card_buy_btn {
         width: 232px;
         height: 48px;
     }
 
-    .bottom_frame{
+    .bottom_frame {
         width: 320px;
         height: 480px;
         padding: 0px 12px 0px 12px;
         gap: 10px;
     }
 
-    .bottom_frame_2{
+    .bottom_frame_2 {
         width: 296px;
         height: 480px;
         padding: 0px 0px 48px 0px;
@@ -1526,7 +1500,7 @@ footer {
     }
 
 
-    .bottom_cards{
+    .bottom_cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1535,27 +1509,26 @@ footer {
         gap: 12px;
     }
 
-    .bottom_card{
+    .bottom_card {
         width: 296px;
         height: 210px;
         padding: 24px 0px 0px 0px;
         border-radius: 16px;
     }
 
-    .card_1_text{
+    .card_1_text {
         width: 248px;
         height: 108px;
         gap: 13px;
     }
 
-    .card_2_text{
+    .card_2_text {
         width: 248px;
-        /*///////////////////////////////*/
         height: 164px;
         gap: 12px;
     }
 
-    .card_1_title{
+    .card_1_title {
         width: 248px;
         height: 19px;
         font-family: "Roboto", serif;
@@ -1566,7 +1539,7 @@ footer {
         white-space: nowrap;
     }
 
-    .card_1_description{
+    .card_1_description {
         width: 248px;
         height: 76px;
         font-family: "Roboto", serif;
@@ -1576,7 +1549,7 @@ footer {
         text-align: left;
     }
 
-    .card_2_title{
+    .card_2_title {
         width: 248px;
         height: 19px;
         font-family: "Roboto", serif;
@@ -1587,7 +1560,7 @@ footer {
         white-space: nowrap;
     }
 
-    .card_2_description{
+    .card_2_description {
         width: 248px;
         height: 133px;
         font-family: "Roboto", serif;
@@ -1597,49 +1570,45 @@ footer {
         text-align: left;
     }
 
-    .bottom_card img{
+    .bottom_card img {
         width: 120px;
         height: 120px;
     }
 
     footer {
-        width: 320px;
         height: 176px;
-        padding: 40px 12px 40px 12px;
         gap: 24px;
     }
 
-    .footer_text_container{
+    .footer_text_container {
         padding: 16px 0px 0px 0px;
     }
 
 
-    .footer_text{
+    .footer_text {
         width: 296px;
         height: 96px;
         gap: 8px;
     }
 
-    .footer_title{
+    .footer_title {
         width: 220px;
         height: 18px;
         gap: 12px;
     }
 
 
-    .footer_title_text{
+    .footer_title_text {
         width: 180px;
         height: 18px;
 
     }
 
 
-    .footer_description{
+    .footer_description {
         width: 296px;
         height: 54px;
     }
-
-
 
 
 }
