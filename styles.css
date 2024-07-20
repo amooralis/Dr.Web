@@ -786,7 +786,7 @@ html {
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1920px) {
     .page, main{
         gap: 64px;
     }
